@@ -18,25 +18,25 @@ git clone https://github.com/depeshpo/django_project.git
 ```bash
 pip install -r requirements.txt
 ``` 
-4. create `env.py` inside `<project_name/django_project/config/settings/`. Copy from `env.example.py` for the first time and update settings as your requirements.
-4. Remember `<project_name>/django_project` is the directory name from where you will run the server.
+4. collect all static files (if run for the first time it creates the assests folder in <project_name> directory)
+```bash
+django-admin collectstatic
+```
+5. create `env.py` inside `<project_name/django_project/config/settings/`. Copy from `env.example.py` for the first time and update settings as your requirements.
+6. Remember `<project_name>/django_project` is the directory name from where you will run the server.
 
 ### optional:
 1. Rename the `django_project` by running following command (from inside of your Django environment):
 ```bash
 django-admin rename_project <new_name_for_django_project>
 ```
-2. collect all static files (if run for the first time it creates the assests folder in <project_name> directory)
-```bash
-django-admin collectstatic
-```
 
-3. rune migrations
+2. rune migrations
 ```bash
 django-admin migrate
 ```
 
-4. create superuser
+3. create superuser
 ```bash
 django-admin create_superuser
 ```
