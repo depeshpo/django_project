@@ -81,7 +81,7 @@ django-admin create_superuser
 |   |---templates
 |   |   |---core (custom app specific)
 |   |   |---<other app specific templates>
-|   |   |---base.py (included basics of jquery and bootstrap)
+|   |   |---base.html (included basics of jquery and bootstrap)
 |   |
 |   |---.gitignore
 |   |---manage.py
