@@ -391,4 +391,4 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/django,pycharm,visualstudiocode,python,linux,jetbrains
 .vscode
 .idea
-*/env.py
+config/settings/env.py
