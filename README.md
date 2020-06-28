@@ -68,6 +68,16 @@ django-admin create_superuser
 |   |   |---urls.py
 |   |   |---wsgi.py
 |   |   |
+|   |   |static_files (all static files we use in development)
+|   |   |---base (project as a whole specific static files)
+|   |   |   |---css
+|   |   |   |---img
+|   |   |   |---js
+|   |   |---core (my custom app specific)
+|   |   |   |---css
+|   |   |   |---img
+|   |   |   |---js
+|   |   |
 |   |---templates
 |   |   |---core (custom app specific)
 |   |   |---<other app specific templates>
