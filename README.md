@@ -90,3 +90,7 @@ django-admin create_superuser
 |---media (folder created once items were uploaded)
 |---db.sqlite3
 ```
+
+You can read more on this [medium] article.
+
+[medium]:https://medium.com/@pdipesh/creating-a-boilerplate-for-new-django-project-bf695a26461c
